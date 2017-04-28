@@ -27,31 +27,41 @@ class Header extends Component {
                     model: 'Apple Iphone 7',
                     color: 'Black',
                     seller: 'Flipkart',
-                    price: '47999'
+                    price: '47999',
+                    image: './image1.jpg',
+                    storage: '32 Gb'
                   },
                     {
                       model: 'Apple Iphone 7S',
                       color: 'Grey',
                       seller: 'Flipkart',
-                      price: '43999'
+                      price: '43999',
+                      image: './image2.jpg',
+                      storage: '16 Gb'
                     },
                     {
                       model: 'Apple Iphone 7 plus',
                       color: 'Black',
                       seller: 'eBay',
-                      price: '57999'
+                      price: '57999',
+                      image: './image3.jpg',
+                      storage: '32 Gb'
                     },
                     {
                       model: 'Apple Iphone 7 S',
                       color: 'Black',
                       seller: 'Amazon India',
-                      price: '47999'
+                      price: '47999',
+                      image: './image4.jpg',
+                      storage: '64 Gb'
                     },
                     {
                       model: 'Apple Iphone 6S',
                       color: 'Black',
                       seller: 'Flipkart',
-                      price: '37999'
+                      price: '37999',
+                      image: './image5.jpg',
+                      storage: '128 Gb'
                     }
                 ]});
             }else{

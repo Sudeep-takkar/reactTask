@@ -6,10 +6,10 @@ class ItemList extends Component {
         return (
         	<div className="Item">
 	            <div className="col-md-2 col-sm-4 col-xs-6">
-	                {this.props.items.model} - {this.props.items.price}
 
                     <div className="card">
-                      
+                      <img className="productImage" src={this.props.items.image} alt="" />
+                      <div>{this.props.items.model}({this.props.items.color},{this.props.items.storage})</div>
                     </div>
 	            </div>
             </div>
