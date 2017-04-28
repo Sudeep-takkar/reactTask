@@ -5,9 +5,13 @@ class ItemList extends Component {
         //console.log(this.props);
         return (
         	<div className="Item">
-	            <li>
+	            <div className="col-md-2 col-sm-4 col-xs-6">
 	                {this.props.items.model} - {this.props.items.price}
-	            </li>
+
+                    <div className="card">
+                      
+                    </div>
+	            </div>
             </div>
         );
     }

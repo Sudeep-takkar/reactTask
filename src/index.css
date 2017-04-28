@@ -69,6 +69,21 @@ body {
 	margin-top: 35px;
 }
 
+.card{
+    height: 200px;
+    width: 120px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 0 6px 0;
+}
+
+.Items{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 
 @media only screen and (max-width: 993px) {
     .googleLogo1{

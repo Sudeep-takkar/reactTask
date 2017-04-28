@@ -9,12 +9,16 @@ class Header extends Component {
           search: []
 
         }
+        // this.callApi();
     }
 
     callApi(){
         return fetch('https://demo9208377.mockable.io/results?q="'+this.refs.inputBox.value+'"',{
             method: 'get'
         })
+        // return fetch('https://demo9208377.mockable.io/results?q="Iphone 7"',{
+        //     method: 'get'
+        // })
         .then((data) => {
             console.log(data);
             if(data.status === 200){
@@ -110,7 +114,9 @@ class Header extends Component {
                         </div>
                     </div>
                 </div>
-                {this.state.search.length > 0 &&
+                {
+                    this.state.search.length > 0 &&
+                    <h3> Shop For Iphone 7 on Google</h3> &&
                     <Items items={this.state.search}/>
                 }
             </div>
