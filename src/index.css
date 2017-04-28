@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Header{
+  height: 125px;
+  background-color: #fafafa;
+  border: 1px solid #ebebeb;
+}
+.googleLogo1{
+  height: 44px;
+  width: 120px;
+}
+
+.padding-0{
+	padding: 0 !important;
+}
+
+.custom-input{
+	border-radius: 1px;
+	height: 40px;
+}
+
+.custom-container{
+	padding-top: 25px;	
+}
+
+.custom-color{
+	font-size: 18px;
+    color: #717171;
+}
+
+.padding-horizontal-10{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.custom-color:hover{
+	font-size: 18px;
+    color: #000;
+}
+
+.userIcon{
+    -webkit-background-size: 32px 32px;
+    /* background-size: 32px 32px; */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 9;
+}
+
+.other-Icons{
+	padding-top: 5px;
+}
+.googleLogo2{
+    height: 35px;
+	width: 97px;
+	display: none;
+}
+
+.dropdown-menu{
+	display: block !important;
+	margin-top: 35px;
+}
+
+
+@media only screen and (max-width: 993px) {
+    .googleLogo1{
+	    height: 35px;
+    	width: 97px;
+    	display: none;
+	}
+	.googleLogo2{
+	    height: 35px;
+    	width: 97px;
+    	margin-left: 41%;
+    	display: block;
+	}
+}
