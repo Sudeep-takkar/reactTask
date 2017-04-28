@@ -9,7 +9,9 @@ class ItemList extends Component {
 
                     <div className="card">
                       <img className="productImage" src={this.props.items.image} alt="" />
-                      <div>{this.props.items.model}({this.props.items.color},{this.props.items.storage})</div>
+                      <div className="mainDetails">{this.props.items.model}({this.props.items.color},{this.props.items.storage})</div>
+                      <div><strong>&#8377;{this.props.items.price}</strong> </div>
+                      <div className="sellerInfo">{this.props.items.seller}</div>
                     </div>
 	            </div>
             </div>

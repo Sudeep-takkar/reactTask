@@ -77,17 +77,30 @@ body {
     border-radius: 2px;
     overflow: hidden;
     margin: 0 0 6px 0;
+    padding: 10px;
 }
 
 .Items{
   margin-left: 10%;
   margin-right: 10%;
+  padding: 25px;
 }
 
 .productImage{
     height: 104px;
     width: 51px;
     margin-left: 25%;
+}
+.mainDetails{
+  color: #1a0dab;
+  font-size: smaller;
+}
+.mainDetails:hover{
+  text-decoration: underline;
+}
+
+.sellerInfo{
+  color: #006621;
 }
 
 @media only screen and (max-width: 993px) {
