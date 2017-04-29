@@ -103,6 +103,112 @@ body {
   color: #006621;
 }
 
+.userInnerImage{
+    background-size: 96px 96px;
+    border: none;
+    vertical-align: top;
+    height: 96px;
+    width: 96px;
+
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    color: #000;
+   
+    outline: none;
+    overflow: hidden;
+    right: 0;
+    top: 44px;
+    -webkit-border-radius: 2px;
+    border-radius: 43px;
+    -webkit-user-select: text;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.custom-dropdown{
+    width: 320px;
+    padding: 0 !important;
+
+}
+
+.userName{
+    font-weight: bold;
+}
+
+.email{
+  color: #666;
+}
+.privacyButton{
+  color: #36c;
+  text-decoration: none;
+}
+.userInfo{
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+.font-size-smaller{
+  font-size: small;
+}
+.lower-part{
+    background: #f5f5f5;
+    border-top: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    padding: 10px 10px;
+    width: 100%;
+    display: table;
+}
+.upper-part{
+  margin-top: 10px;
+}
+.my-account-btn{
+    background: #4d90fe;
+    color: #fff;
+    border: 1px solid #c6c6c6;
+    cursor: default;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+.lower-part>button{
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+    padding:5px 12px;
+    color: #666;
+    cursor: default;
+    text-decoration: none;
+    margin-right:10px;
+    margin-left:10px;
+}
+.yellow-part{
+  padding: 3px 12px;
+  background-color: #fffae8;
+  border: 1px solid transparent;
+  border-color: #fdedce;
+}
+.change-button{
+    background: rgba(0,0,0,.54);
+    bottom: 0;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    left: 32px;
+    line-height: 11px;
+    position: absolute;
+    padding: 7px 0;
+    text-align: center;
+    width: 83px;
+    border-bottom-left-radius: 100%50px;
+    border-bottom-right-radius: 100%50px;
+}
+
 @media only screen and (max-width: 993px) {
     .googleLogo1{
 	    height: 35px;
