@@ -12,8 +12,8 @@ class Header extends Component {
         // this.callApi();
     }
 
-    callApi(){
-        return fetch('https://demo9208377.mockable.io/results?q="'+this.refs.inputBox.value+'"',{
+    callApi(value){
+        return fetch('https://demo9208377.mockable.io/results?q="'+value+'"',{
             method: 'get'
         })
         // return fetch('https://demo9208377.mockable.io/results?q="Iphone 7"',{
@@ -71,21 +71,21 @@ class Header extends Component {
     }
 
     handleKeyPress(e) {
-        // console.log(this.refs.inputBox.value);
+        //console.log(e.target.value);
         if (e.key === 'Enter') {
           // console.log();
           // <div className="col-md-2 visible-md visible-lg padding-0">
           //                       <img className="googleLogo" src="./googleLogo.png" alt="" />
           //                   </div>
-          this.callApi();
+          this.callApi(e.target.value);
         }
     }
     getInitialState() {
-        return { showResults: true };
+        return { showResults: true ,inputValue: ""};
     }
 
     onClick(bool) {
-        console.log(bool, typeof bool);
+        //console.log(bool, typeof bool);
         if(bool){
             this.setState({ showResults: !this.state.showResults });
         }else{
@@ -109,7 +109,7 @@ class Header extends Component {
                             </div>
 
                             <div className="form-group has-feedback col-md-9 col-xs-10 col-xs-offset-1 padding-0">  
-                                <input type="text" className="form-control custom-input" onKeyPress={this.handleKeyPress.bind(this)} ref="inputBox" />
+                                <input type="text" className="form-control custom-input" onKeyPress={this.handleKeyPress.bind(this)} value={this.state.inputValue} />
                             </div>
                         </div>
                         <div className="col-md-4 visible-md visible-lg">
